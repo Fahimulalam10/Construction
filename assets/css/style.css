@@ -1,0 +1,204 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* top header start */
+
+.top-header {
+  background-color: #ffcb0f;
+  padding-top: 13px;
+}
+
+.top-text p {
+  font-weight: 400;
+  padding-right: 30px;
+  font-size: 15px;
+}
+
+.top-text p i {
+  color: black;
+}
+
+.top-icons {
+  text-align: right;
+}
+
+.top-icons i {
+  padding-left: 15px;
+  color: black;
+}
+
+/*  top header end  */
+
+/* main nav start */
+
+.main-nav {
+  background-color: #222533;
+}
+
+.main-nav .navbar {
+  padding-right: 0;
+}
+
+.navbar-brand .logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 6px;
+  color: #ffcb0f;
+  font-style: italic;
+}
+
+.logo-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b0b0b1;
+  font-style: normal;
+}
+
+.main-nav .navs .nav-item {
+  padding-left: 15px;
+}
+
+.navs .nav-item .nav-link {
+  color: #ffffff;
+}
+
+.navs .nav-link {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.navs .nav-link i {
+  color: #ffcb0f;
+}
+
+/* main nav end */
+
+/* slide area start */
+
+.slide-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.slide-text h3 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.slide-text P {
+  font-size: 23px;
+  font-weight: 400;
+  padding-bottom: 60px;
+  color: #ffffff;
+}
+
+.slide-area .btns a {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ffcb0f;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.slide-area {
+  background-image: url("../img/slideimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 210px;
+}
+
+.slide-area .btns a:first-child {
+  margin-right: 65px;
+}
+
+.slide-area .btns a:hover {
+  color: #ffcb0f;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+
+/* slide area end */
+
+/* company area start  */
+
+.company-area {
+  padding-bottom: 0px;
+}
+
+.company {
+  background-image: url("../img/companybg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 290px;
+  margin-top: 90px;
+
+  /* margin-top:105px ; */
+}
+.company-text {
+  padding-top: 80px;
+}
+
+.company-text h4 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+.company-text h4 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffcb0f;
+}
+
+.company-text h4 .texts{
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+}
+
+.company-text p{
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+
+
+.company-text a{
+  color: #ffffff;
+  background-color: #ffcb0f;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight:400;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+ 
+}
+
+.company-text a:hover{
+  color: #ffcb0f;
+  background-color: #ffffff;
+}
+
+
+
+
+
+.company-img {
+  position: relative;
+  left: 105px;
+  top: -92px;
+}
+
+/* company area end  */

@@ -70,6 +70,11 @@
   font-size: 15px;
   font-weight: 400;
 }
+.nav-item .nav-link:hover{
+  color: #ffcb0f;
+
+
+}
 
 .navs .nav-link i {
   color: #ffcb0f;
